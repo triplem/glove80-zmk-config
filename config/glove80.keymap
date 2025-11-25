@@ -40,7 +40,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp ESC>, <&>;
+            bindings = <&kp ESC>, <&macro_tilde>;
         };
 
        magic: magic_hold_tap {
