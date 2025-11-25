@@ -40,7 +40,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp ESC>, <&macro_tilde>;
+            bindings = <&kp ESC>, <&mc_tld>;
         };
 
        magic: magic_hold_tap {
@@ -118,7 +118,7 @@
                 ;
         };
 
-        tld: macro_tilde {
+        mc_tld: macro_tilde {
             label = "'"; // avoid deadkey on us intl layout
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -163,8 +163,8 @@
             // | ----- | ----- | ----- | ----- | ----- |       | ----- | ----- | ----- | | ----- | ----- | ----- |      | ----- | ----- | ----- | ----- | ----- |
 
             bindings = <
-            &f1_td  &f2_td  &kp F3  &kp F4  &kp F5                                                                     &kp F6    &kp F7    &kp F8     &kp F9    &kp F10
-            &trans  &f1_td  &f2_td  &kp F3  &kp F4  &kp F5                                                   &kp F6    &kp F7    &kp F8    &kp F9     &kp F10   &kp EQUAL
+            &td_f1  &td_f2  &kp F3  &kp F4  &kp F5                                                                     &kp F6    &kp F7    &kp F8     &kp F9    &kp F10
+            &trans  &td_f1  &td_f2  &kp F3  &kp F4  &kp F5                                                   &kp F6    &kp F7    &kp F8    &kp F9     &kp F10   &kp EQUAL
             &trans  &trans  &trans  &trans  &trans  &kp LBKT                                                 &kp RBKT  &trans    &trans    &kp F11    &kp F12   &trans
             &trans  &trans  &trans  &trans  &trans  &trans                                                   &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &kp BSLH  &trans
             &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp PGDN  &kp PGUP  &kp END    &trans    &cad
