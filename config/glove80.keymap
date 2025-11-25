@@ -116,8 +116,7 @@
             bindings
                 = <&macro_tap &kp SINGLE_QUOTE &kp SPACE>
                 ;
-        
-        }
+        };
 
         tld: macro_tilde {
             label = "'"; // avoid deadkey on us intl layout
@@ -129,8 +128,7 @@
                   <&macro_tap &kp SPACE>
                   <&macro_release &kp LEFT_SHIFT>
                 ;
-        
-        }
+        };
     };
 
     keymap {
