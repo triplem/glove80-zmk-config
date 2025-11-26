@@ -1,5 +1,13 @@
 # MoErgo Glove80 Custom Configuration for ZMK
 
+My personal glove80 config, which is quite similar to the qmk configs from my other keebs (see [QMK Keebs](https://github.com/triplem/qmk_userspace)). 
+
+The keymap, drawn with [keymap drawer](https://keymap-drawer.streamlit.app/), is:
+
+![Keymap](glove80-keymap.svg)
+
+Official Docs:
+
 ![MoErgo Logo](moergo_logo.png)
 
 This repo is the official ZMK configuration of the MoErgo Glove80 wireless split contoured keyboard. Use it to develop your own keymap and easily build your own ZMK firmware to run on your Glove80.
