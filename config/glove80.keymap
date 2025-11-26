@@ -45,7 +45,7 @@
 
        magic: magic_hold_tap {
             compatible = "zmk,behavior-hold-tap";
-            label = "MAGIC_HOLD_TAP";
+            #label = "MAGIC_HOLD_TAP";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
@@ -55,7 +55,7 @@
 
     macros {
         rgb_ug_status_macro: rgb_ug_status_macro_0 {
-            label = "RGB_UG_STATUS";
+            #label = "RGB_UG_STATUS";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -63,7 +63,7 @@
         };
 
         bt_0: bt_profile_macro_0 {
-            label = "BT_0";
+            #label = "BT_0";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -72,7 +72,7 @@
         };
 
         bt_1: bt_profile_macro_1 {
-            label = "BT_1";
+            #label = "BT_1";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -81,7 +81,7 @@
         };
 
         bt_2: bt_profile_macro_2 {
-            label = "BT_2";
+            #label = "BT_2";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -90,7 +90,7 @@
         };
 
         bt_3: bt_profile_macro_3 {
-            label = "BT_3";
+            #label = "BT_3";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -99,7 +99,7 @@
         };
 
         cad: ctrl_alt_del {
-            label = "CTRL-ALT-DEL or RESET";
+            #label = "CTRL-ALT-DEL or RESET";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -110,7 +110,7 @@
         };
 
         mcq: macro_quotation_mark {
-            label = "Single Quote"; // avoid deadkey on us intl layout
+            #label = "Single Quote"; // avoid deadkey on us intl layout
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -119,7 +119,7 @@
         };
 
         mc_tld: macro_tilde {
-            label = "Tilde"; // avoid deadkey on us intl layout
+            #label = "Tilde"; // avoid deadkey on us intl layout
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -131,7 +131,7 @@
         };
 
        mc_grv: macro_grave {
-             label = "Grave"; // avoid deadkey on us intl layout
+            #label = "Grave"; // avoid deadkey on us intl layout
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
