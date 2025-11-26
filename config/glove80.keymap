@@ -184,7 +184,7 @@
 
         symbol_layer {
             // ---------------------------------------------------------------------------------------------------------------------------------
-            // | ----- | ----- | ----- | ----- | ----- |                                                                 | ----- | ----- | ----- | ----- | ----- |
+            // |   `   | ----- | ----- | ----- | ----- |                                                                 | ----- | ----- | ----- | ----- | ----- |
             // | ----- | ----- | ----- | ----- | ----- | ----- |                                                 | ----- | ----- | ----- | ----- | ----- |   =   |
             // | ----- | ----- | ----- |   €   | ----- |   [   |                                                 |   ]   |   Ü   | ----- |   Ö   | ----- |   |   |
             // | ----- |   Ä   |   ß   | ----- | ----- | ----- |                                                 | ----- | ----- | ----- | ----- |   \   | ----- |
@@ -192,7 +192,7 @@
             // | ----- | ----- | ----- | ----- | ----- |       | ----- | ----- | ----- | | ----- | ----- | ----- |       | ----- | ----- | ----- | ----- | ----- |
 
             bindings = <
-            &trans  &trans    &trans    &trans    &trans                                                                     &trans    &trans      &trans    &trans    &trans
+            &mc_grv &trans    &trans    &trans    &trans                                                                     &trans    &trans      &trans    &trans    &trans
             &trans  &trans    &trans    &trans    &trans  &trans                                                   &trans    &trans    &trans      &trans    &trans    &kp EQUAL
             &trans  &trans    &trans    &kp RA(5) &trans  &kp LBKT                                                 &kp RBKT  &kp RA(U) &trans      &kp RA(O) &trans    &kp PIPE
             &trans  &kp RA(A) &kp RA(S) &trans    &trans  &trans                                                   &trans    &trans    &trans      &trans    &kp BSLH  &trans
