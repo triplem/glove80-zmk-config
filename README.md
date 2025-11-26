@@ -2,6 +2,8 @@
 
 My personal glove80 config, which is quite similar to the qmk configs from my other keebs (see [QMK Keebs](https://github.com/triplem/qmk_userspace)). 
 
+To flash the glove80 refer to: https://docs.moergo.com/glove80-user-guide/customizing-key-layout/#putting-glove80-into-bootloader-for-firmware-loading
+
 The keymap, drawn with [keymap drawer](https://keymap-drawer.streamlit.app/), is:
 
 ![Keymap](glove80-keymap.svg)
