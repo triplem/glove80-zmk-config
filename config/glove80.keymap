@@ -110,7 +110,7 @@
         };
 
         mcq: macro_quotation_mark {
-            label = "'"; // avoid deadkey on us intl layout
+            label = "Single Quote"; // avoid deadkey on us intl layout
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -119,7 +119,7 @@
         };
 
         mc_tld: macro_tilde {
-            label = "'"; // avoid deadkey on us intl layout
+            label = "Tilde"; // avoid deadkey on us intl layout
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -131,7 +131,7 @@
         };
 
        mc_grv: macro_grave {
-             label = "'"; // avoid deadkey on us intl layout
+             label = "Grave"; // avoid deadkey on us intl layout
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
